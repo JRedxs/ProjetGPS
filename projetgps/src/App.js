@@ -2,6 +2,8 @@ import './App.css';
 import InputSearch from './components/InputSearch';
 import Map from './components/Map';
 
+
+
 function App() {
   return (
     <div className="App">
@@ -9,6 +11,8 @@ function App() {
       <Map></Map>
     </div>
   );
+
+  
 }
 
 export default App;
