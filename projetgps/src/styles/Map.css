@@ -4,7 +4,14 @@
     padding-left: 15em;
 }
 
-.card-map{
-    width: fit-content;
-    height: fit-content;
+.map-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.leaflet-container{
+    width: 70em;
+    height: 50em;
+  }
