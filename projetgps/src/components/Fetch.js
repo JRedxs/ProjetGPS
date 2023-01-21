@@ -7,8 +7,8 @@ const FetchData = () => {
 
     
     const getCities = () => {
-       const axiosFetchCities = axios.get('JSON/cities.json')
-       console.log("get cities",axiosFetchCities)
+        const axiosFetchCities = axios.get('JSON/cities.json')
+            console.log("get cities",axiosFetchCities)
     } 
 
     

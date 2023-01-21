@@ -2,21 +2,22 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 function ConnectDatabase() {
-  const [users, setUsers] = useState([]);
+  const [cities, setCities] = useState([]);
 
   useEffect(() => {
+    
     axios
-      .get("/db/regions.json")
-        .then((res) => setUsers(res.data))
+      .get("/JSON/cities.json")
+        .then((res) => setCities(res.data))
           .catch((err) => console.log(err));
   }, []);
 
   return (
     <div>
       <ul>
-        {users.map((user, index) => (
+        {cities.map((cities, index) => (
           <li key={index}>
-            #{user.code}: {user.id} {user.name} {user.slug}
+            #{cities.code}: {cities.id} {cities.name} {cities.slug}
           </li>
         ))}
       </ul>

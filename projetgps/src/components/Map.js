@@ -24,7 +24,7 @@ const Map = () => {
                         />
                         <Marker position={[50.6422677679524, 3.061675967234328]}>
                             <Popup>
-                            A pretty CSS3 popup. <br /> Easily customizable.
+                                Localisation par défault <br /> Campus EPSI Lille.
                             </Popup>
                         </Marker>
                     </MapContainer>
