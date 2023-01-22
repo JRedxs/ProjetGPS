@@ -1,11 +1,7 @@
 import './App.css';
 import TravelForm from './components/Form';
 import Map from './components/Map';
-
 import FetchData from './components/Fetch';
-
-
-
 import ConnectDatabase from './components/DataBase';
 
 

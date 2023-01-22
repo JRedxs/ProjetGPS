@@ -3,14 +3,9 @@ import { MapContainer, TileLayer, useMap, Marker, Popup, useMapEvents } from 're
 import '../styles/Map.css';
 
 
+
 const Map = () => {
 
-    // function event(){
-    //     const testEvent = useMapEvents('click', () => {
-    //         map.setCenter([48.853172548812225, 2.349802258845999])
-    //     })
-    //     return null
-    // }
     return(
         <>
             <button className="btn btn-primary"> test function </button>
